@@ -1,0 +1,24 @@
+$myFont: Helvetica, sans-serif;
+$myColor: black;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor
+}
+
+h1 {$myColor: red !global;
+    color: $myColor;
+
+}
+
+
+p { $myColor: blue;
+    color: $myColor;
+}
+#container {
+    width: $myWidth;
+}
